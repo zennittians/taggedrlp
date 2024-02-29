@@ -2,9 +2,10 @@
 // builds, which would fail because the imports are programs – package main –
 // and not really importable packages.
 //
+//go:build tools
 // +build tools
 
-// Package tools provides build tools necessary for Chainnext.
+// Package tools provides build tools necessary for zennittians.
 package tools
 
 // Put only installable tools into this list.

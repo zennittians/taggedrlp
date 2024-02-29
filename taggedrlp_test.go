@@ -23,7 +23,7 @@ type RecordV0 struct {
 var RecordV0Type = reflect.TypeOf(RecordV0{})
 
 var RecordV0Value = RecordV0{
-	Name:    "Harmony",
+	Name:    "Chainnext",
 	Address: "349 Martens Ave",
 }
 
@@ -50,7 +50,7 @@ type RecordV1 struct {
 var RecordV1Type = reflect.TypeOf(RecordV1{})
 
 var RecordV1Value = RecordV1{
-	Name:    "Harmony",
+	Name:    "Chainnext",
 	Address: "349 Martens Ave",
 	Phone:   "+14153234477",
 }
@@ -461,7 +461,7 @@ var RecordV0WithoutEnvelope = []byte("" +
 	// BEGIN 24-byte RecordV0 list
 	"\xd8" +
 	// 7-byte Name
-	"\x87Harmony" +
+	"\x87Chainnext" +
 	// 15-byte Address
 	"\x8f349 Martens Ave" +
 	// END RecordV0 list
@@ -477,7 +477,7 @@ var RecordV1WithEnvelope = []byte("" +
 	// BEGIN 37-byte RecordV1 list
 	"\xe5" +
 	// 7-byte Name
-	"\x87Harmony" +
+	"\x87Chainnext" +
 	// 15-byte Address
 	"\x8f349 Martens Ave" +
 	// 12-byte Phone
